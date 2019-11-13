@@ -7,14 +7,192 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3BB3CA1A0DE6F80E2A8CB570 /* Pods_AjouAjou.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DD39499F5920A75D07334C9 /* Pods_AjouAjou.framework */; };
+		3E05B637203C4C190085C034 /* BEMCheckBoxGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E05B62F203C4C160085C034 /* BEMCheckBoxGroup.m */; };
+		3E05B638203C4C190085C034 /* BEMCheckBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E05B631203C4C170085C034 /* BEMCheckBox.m */; };
+		3E05B639203C4C190085C034 /* BEMAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E05B632203C4C170085C034 /* BEMAnimationManager.m */; };
+		3E05B63A203C4C190085C034 /* BEMPathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E05B636203C4C180085C034 /* BEMPathManager.m */; };
+		3E05B63E203C92C60085C034 /* DistributedCoupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E05B63D203C92C60085C034 /* DistributedCoupon.swift */; };
+		3E06F39D2038093B0094CC7F /* CustomerManualPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E06F39C2038093B0094CC7F /* CustomerManualPageViewController.swift */; };
+		3E06F3A020380AAE0094CC7F /* CustomerManual1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E06F39F20380AAE0094CC7F /* CustomerManual1ViewController.swift */; };
+		3E06F3A220380AC00094CC7F /* CustomerManual2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E06F3A120380AC00094CC7F /* CustomerManual2ViewController.swift */; };
+		3E06F3A420380ACE0094CC7F /* CustomerManual3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E06F3A320380ACE0094CC7F /* CustomerManual3ViewController.swift */; };
+		3E06F3AD203810270094CC7F /* CustomerMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E06F3AC203810270094CC7F /* CustomerMainViewController.swift */; };
+		3E06F3AF203815280094CC7F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E06F3AE203815280094CC7F /* GoogleService-Info.plist */; };
+		3E2412DE204A789B001AB4D4 /* OwnerMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2412DD204A789B001AB4D4 /* OwnerMainTableViewCell.swift */; };
+		3E2412E0204A8953001AB4D4 /* OwnerMainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2412DF204A8953001AB4D4 /* OwnerMainDetailViewController.swift */; };
+		3E2E1EE82053A6AD00BED0CD /* DeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2E1EE72053A6AC00BED0CD /* DeveloperViewController.swift */; };
+		3E2E1EEA2053A76100BED0CD /* developer.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E2E1EE92053A75F00BED0CD /* developer.png */; };
+		3E3FAE322052FA7B00F42226 /* undraw_development_ouy3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3FAE312052FA7900F42226 /* undraw_development_ouy3.png */; };
+		3E3FAE342052FC0100F42226 /* DevelopmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3FAE332052FC0100F42226 /* DevelopmentViewController.swift */; };
+		3E3FAE3F20530F4D00F42226 /* manualCustomer1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3FAE3E20530F4B00F42226 /* manualCustomer1.png */; };
+		3E3FAE41205313BB00F42226 /* manualCustomer2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3FAE40205313B900F42226 /* manualCustomer2.png */; };
+		3E3FAE432053169E00F42226 /* manualOwner1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3FAE422053169B00F42226 /* manualOwner1.png */; };
+		3E3FAE452053189B00F42226 /* manualOwner2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E3FAE442053189800F42226 /* manualOwner2.png */; };
+		3E48B93D203D1CD70008A431 /* UpdateInformOwnerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E48B93C203D1CD70008A431 /* UpdateInformOwnerTableViewCell.swift */; };
+		3E4B95472062A11400868E90 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4B95462062A11400868E90 /* NotificationViewController.swift */; };
+		3E4B95492062A34A00868E90 /* conference.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E4B95482062A34700868E90 /* conference.png */; };
+		3E4B954B2062A5B000868E90 /* Notice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E4B954A2062A5B000868E90 /* Notice.swift */; };
+		3E522FF2205245A000488843 /* today.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E522FF12052459D00488843 /* today.png */; };
+		3E5F77522040360F00186D45 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5F77512040360F00186D45 /* Colors.swift */; };
+		3E5F7756204038A700186D45 /* afoo_logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F7755204038A700186D45 /* afoo_logo_white.png */; };
+		3E5F775D204045C800186D45 /* coupon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F775B204045C700186D45 /* coupon.png */; };
+		3E5F775E204045C800186D45 /* qr-code.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F775C204045C700186D45 /* qr-code.png */; };
+		3E5F776020404ACD00186D45 /* online.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F775F20404ACC00186D45 /* online.png */; };
+		3E5F7768204053C700186D45 /* sideMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F7767204053C700186D45 /* sideMenu.png */; };
+		3E5F776E2041588400186D45 /* googleLogin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F776D2041588300186D45 /* googleLogin.png */; };
+		3E5F777220415CE500186D45 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E5F777120415CE400186D45 /* mail.png */; };
+		3E6B122D20508FCC00CEC6A8 /* userStar.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6B122B20508FC700CEC6A8 /* userStar.png */; };
+		3E6B122E20508FCC00CEC6A8 /* star.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E6B122C20508FCA00CEC6A8 /* star.png */; };
+		3E6B1AFC2035758900F52368 /* OwnerMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E6B1AFB2035758900F52368 /* OwnerMainViewController.swift */; };
+		3E72FC2D204392CF00D8C01C /* down-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E72FC2B204392CE00D8C01C /* down-arrow.png */; };
+		3E72FC2E204392CF00D8C01C /* up-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E72FC2C204392CE00D8C01C /* up-arrow.png */; };
+		3E72FC312043938700D8C01C /* CreateOrderSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E72FC302043938700D8C01C /* CreateOrderSheetViewController.swift */; };
+		3E72FC332043993A00D8C01C /* refresh-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E72FC322043993A00D8C01C /* refresh-arrow.png */; };
+		3E72FC352043A9E700D8C01C /* CreateOrderSheetTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E72FC342043A9E700D8C01C /* CreateOrderSheetTableViewCell.swift */; };
+		3E750E83204BCD2400758258 /* WaitingOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E750E82204BCD2400758258 /* WaitingOrder.swift */; };
+		3E750E87204BDEF400758258 /* CustomerMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E750E86204BDEF400758258 /* CustomerMainTableViewCell.swift */; };
+		3E750E8A204CF70B00758258 /* ManageCouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E750E89204CF70B00758258 /* ManageCouponViewController.swift */; };
+		3E750E8C204CF76A00758258 /* ManageCouponTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E750E8B204CF76A00758258 /* ManageCouponTableViewCell.swift */; };
+		3E750E8E204CF79400758258 /* ManageCouponDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E750E8D204CF79400758258 /* ManageCouponDetailViewController.swift */; };
+		3E750E94204D66AD00758258 /* couponIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E750E91204D66AC00758258 /* couponIcon.png */; };
+		3E750E95204D66AD00758258 /* couponSet.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E750E92204D66AC00758258 /* couponSet.png */; };
+		3E750E97204D689900758258 /* couponBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E750E96204D689900758258 /* couponBackground.png */; };
+		3E750E99204E680A00758258 /* MakeQRCodeToUseCouponViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E750E98204E680A00758258 /* MakeQRCodeToUseCouponViewController.swift */; };
+		3E764B692042A1C500881D50 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E764B672042A1C400881D50 /* checked.png */; };
+		3E764B6A2042A1C500881D50 /* left-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E764B682042A1C500881D50 /* left-arrow.png */; };
+		3E764B6C2042C68100881D50 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E764B6B2042C68000881D50 /* plus.png */; };
+		3E764B702042CFA900881D50 /* StoreMenuForTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E764B6F2042CFA900881D50 /* StoreMenuForTableView.swift */; };
+		3E76E7C920524CFD002B7262 /* mainCouponIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3E76E7C820524CFB002B7262 /* mainCouponIcon.png */; };
+		3E7FC3EB20473D1100FC4969 /* QRReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FC3EA20473D1100FC4969 /* QRReaderViewController.swift */; };
+		3E7FC3EE2047403D00FC4969 /* CustomerQRDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FC3ED2047403D00FC4969 /* CustomerQRDataViewController.swift */; };
+		3E7FC3F020478DE400FC4969 /* Coupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7FC3EF20478DE400FC4969 /* Coupon.swift */; };
+		3EA5904C2050038400D32A21 /* CustomerOrderCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5904B2050038400D32A21 /* CustomerOrderCompleteViewController.swift */; };
+		3EA5904E2050040A00D32A21 /* orderComplete.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA5904D2050040900D32A21 /* orderComplete.png */; };
+		3EA5905020500C4200D32A21 /* UsedCoupon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA5904F20500C4200D32A21 /* UsedCoupon.swift */; };
+		3EA5905220500F5000D32A21 /* useCoupon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA5905120500F4E00D32A21 /* useCoupon.png */; };
+		3EA590542050103E00D32A21 /* OwnerQRDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EA590532050103E00D32A21 /* OwnerQRDateViewController.swift */; };
+		3EA5905D20506C3B00D32A21 /* settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA5905C20506C3B00D32A21 /* settings.png */; };
+		3EA5905F20506C8100D32A21 /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA5905E20506C8100D32A21 /* logout.png */; };
+		3EA5906120506DBC00D32A21 /* event.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA5906020506DBA00D32A21 /* event.png */; };
+		3EA5906320506E1A00D32A21 /* notification.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA5906220506E1700D32A21 /* notification.png */; };
+		3EA5906520506E4400D32A21 /* information.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA5906420506E4100D32A21 /* information.png */; };
+		3EA5906720506E8100D32A21 /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA5906620506E7F00D32A21 /* map.png */; };
+		3EA59069205076AC00D32A21 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA59068205076AC00D32A21 /* back.png */; };
+		3EABD6082039A4CB00948F44 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EABD6072039A4CB00948F44 /* SplashViewController.swift */; };
+		3EABD60C2039A9DD00948F44 /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EABD60B2039A9DD00948F44 /* RemoteConfigDefaults.plist */; };
+		3EABD60F2039C0F000948F44 /* InformOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EABD60E2039C0F000948F44 /* InformOwner.swift */; };
+		3EB81DD1203B02EC00006F69 /* FontResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB81DD0203B02EC00006F69 /* FontResource.swift */; };
+		3EC3853F204FC49100349E20 /* couponStorageSuccess.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EC3853E204FC49000349E20 /* couponStorageSuccess.png */; };
+		3ED318CE20497001009E83FC /* ReceiptTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ED318CD20497001009E83FC /* ReceiptTableViewCell.swift */; };
+		3EDB29DA2046C3F20003E2D0 /* ReceiptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDB29D92046C3F20003E2D0 /* ReceiptViewController.swift */; };
+		3EDD5896203C3D9D0042C4C3 /* UpdateInformOwnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD5895203C3D9D0042C4C3 /* UpdateInformOwnerViewController.swift */; };
+		3EDD589A203C41570042C4C3 /* UpdateInformCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EDD5899203C41570042C4C3 /* UpdateInformCustomerViewController.swift */; };
 		3EE6D84020349D98003987F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6D83F20349D98003987F5 /* AppDelegate.swift */; };
 		3EE6D84220349D98003987F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6D84120349D98003987F5 /* ViewController.swift */; };
 		3EE6D84520349D98003987F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE6D84320349D98003987F5 /* Main.storyboard */; };
 		3EE6D84720349D98003987F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EE6D84620349D98003987F5 /* Assets.xcassets */; };
 		3EE6D84A20349D98003987F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EE6D84820349D98003987F5 /* LaunchScreen.storyboard */; };
+		3EE6D8582034AC60003987F5 /* OwnerLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6D8572034AC60003987F5 /* OwnerLoginViewController.swift */; };
+		3EE6D85B2034AD14003987F5 /* OwnerManualPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6D85A2034AD14003987F5 /* OwnerManualPageViewController.swift */; };
+		3EE6D85E2034AEAF003987F5 /* OwnerManual1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6D85D2034AEAF003987F5 /* OwnerManual1ViewController.swift */; };
+		3EE6D8602034AEB8003987F5 /* OwnerManual2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6D85F2034AEB8003987F5 /* OwnerManual2ViewController.swift */; };
+		3EE6D8622034AEC1003987F5 /* OwnerManual3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE6D8612034AEC1003987F5 /* OwnerManual3ViewController.swift */; };
+		3EE8F6502039E074008D1458 /* InformCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE8F64F2039E074008D1458 /* InformCustomer.swift */; };
+		3EE8F6552039F6DB008D1458 /* OwnerSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EE8F6542039F6DB008D1458 /* OwnerSignUpViewController.swift */; };
+		3EEE5D442072912300A4D618 /* couponIconFullGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EEE5D402072912200A4D618 /* couponIconFullGray.png */; };
+		3EEE5D452072912300A4D618 /* couponIconEmptyGray.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EEE5D412072912200A4D618 /* couponIconEmptyGray.png */; };
+		3EEE5D462072912300A4D618 /* couponIconFullColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EEE5D422072912200A4D618 /* couponIconFullColor.png */; };
+		3EEE5D472072912300A4D618 /* couponIconEmptyColor.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EEE5D432072912300A4D618 /* couponIconEmptyColor.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E05B62F203C4C160085C034 /* BEMCheckBoxGroup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBoxGroup.m; sourceTree = "<group>"; };
+		3E05B630203C4C170085C034 /* BEMCheckBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEMCheckBox.h; sourceTree = "<group>"; };
+		3E05B631203C4C170085C034 /* BEMCheckBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEMCheckBox.m; sourceTree = "<group>"; };
+		3E05B632203C4C170085C034 /* BEMAnimationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEMAnimationManager.m; sourceTree = "<group>"; };
+		3E05B633203C4C170085C034 /* BEMAnimationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEMAnimationManager.h; sourceTree = "<group>"; };
+		3E05B634203C4C180085C034 /* BEMCheckBoxGroup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEMCheckBoxGroup.h; sourceTree = "<group>"; };
+		3E05B635203C4C180085C034 /* BEMPathManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BEMPathManager.h; sourceTree = "<group>"; };
+		3E05B636203C4C180085C034 /* BEMPathManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BEMPathManager.m; sourceTree = "<group>"; };
+		3E05B63D203C92C60085C034 /* DistributedCoupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistributedCoupon.swift; sourceTree = "<group>"; };
+		3E06F39C2038093B0094CC7F /* CustomerManualPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerManualPageViewController.swift; sourceTree = "<group>"; };
+		3E06F39F20380AAE0094CC7F /* CustomerManual1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerManual1ViewController.swift; sourceTree = "<group>"; };
+		3E06F3A120380AC00094CC7F /* CustomerManual2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerManual2ViewController.swift; sourceTree = "<group>"; };
+		3E06F3A320380ACE0094CC7F /* CustomerManual3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerManual3ViewController.swift; sourceTree = "<group>"; };
+		3E06F3AC203810270094CC7F /* CustomerMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMainViewController.swift; sourceTree = "<group>"; };
+		3E06F3AE203815280094CC7F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3E2412DD204A789B001AB4D4 /* OwnerMainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerMainTableViewCell.swift; sourceTree = "<group>"; };
+		3E2412DF204A8953001AB4D4 /* OwnerMainDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerMainDetailViewController.swift; sourceTree = "<group>"; };
+		3E2E1EE72053A6AC00BED0CD /* DeveloperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeveloperViewController.swift; sourceTree = "<group>"; };
+		3E2E1EE92053A75F00BED0CD /* developer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = developer.png; sourceTree = "<group>"; };
+		3E3FAE312052FA7900F42226 /* undraw_development_ouy3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undraw_development_ouy3.png; sourceTree = "<group>"; };
+		3E3FAE332052FC0100F42226 /* DevelopmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DevelopmentViewController.swift; sourceTree = "<group>"; };
+		3E3FAE3E20530F4B00F42226 /* manualCustomer1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manualCustomer1.png; sourceTree = "<group>"; };
+		3E3FAE40205313B900F42226 /* manualCustomer2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manualCustomer2.png; sourceTree = "<group>"; };
+		3E3FAE422053169B00F42226 /* manualOwner1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manualOwner1.png; sourceTree = "<group>"; };
+		3E3FAE442053189800F42226 /* manualOwner2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = manualOwner2.png; sourceTree = "<group>"; };
+		3E48B93C203D1CD70008A431 /* UpdateInformOwnerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateInformOwnerTableViewCell.swift; sourceTree = "<group>"; };
+		3E4B95462062A11400868E90 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		3E4B95482062A34700868E90 /* conference.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conference.png; sourceTree = "<group>"; };
+		3E4B954A2062A5B000868E90 /* Notice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notice.swift; sourceTree = "<group>"; };
+		3E522FF12052459D00488843 /* today.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = today.png; sourceTree = "<group>"; };
+		3E5F77512040360F00186D45 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		3E5F7755204038A700186D45 /* afoo_logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = afoo_logo_white.png; sourceTree = "<group>"; };
+		3E5F775B204045C700186D45 /* coupon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coupon.png; sourceTree = "<group>"; };
+		3E5F775C204045C700186D45 /* qr-code.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qr-code.png"; sourceTree = "<group>"; };
+		3E5F775F20404ACC00186D45 /* online.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = online.png; sourceTree = "<group>"; };
+		3E5F7767204053C700186D45 /* sideMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sideMenu.png; sourceTree = "<group>"; };
+		3E5F776D2041588300186D45 /* googleLogin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = googleLogin.png; sourceTree = "<group>"; };
+		3E5F777120415CE400186D45 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mail.png; sourceTree = "<group>"; };
+		3E6B122B20508FC700CEC6A8 /* userStar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = userStar.png; sourceTree = "<group>"; };
+		3E6B122C20508FCA00CEC6A8 /* star.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = star.png; sourceTree = "<group>"; };
+		3E6B1AFB2035758900F52368 /* OwnerMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerMainViewController.swift; sourceTree = "<group>"; };
+		3E72FC2B204392CE00D8C01C /* down-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down-arrow.png"; sourceTree = "<group>"; };
+		3E72FC2C204392CE00D8C01C /* up-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up-arrow.png"; sourceTree = "<group>"; };
+		3E72FC302043938700D8C01C /* CreateOrderSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderSheetViewController.swift; sourceTree = "<group>"; };
+		3E72FC322043993A00D8C01C /* refresh-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh-arrow.png"; sourceTree = "<group>"; };
+		3E72FC342043A9E700D8C01C /* CreateOrderSheetTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrderSheetTableViewCell.swift; sourceTree = "<group>"; };
+		3E750E82204BCD2400758258 /* WaitingOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaitingOrder.swift; sourceTree = "<group>"; };
+		3E750E86204BDEF400758258 /* CustomerMainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerMainTableViewCell.swift; sourceTree = "<group>"; };
+		3E750E89204CF70B00758258 /* ManageCouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCouponViewController.swift; sourceTree = "<group>"; };
+		3E750E8B204CF76A00758258 /* ManageCouponTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCouponTableViewCell.swift; sourceTree = "<group>"; };
+		3E750E8D204CF79400758258 /* ManageCouponDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManageCouponDetailViewController.swift; sourceTree = "<group>"; };
+		3E750E91204D66AC00758258 /* couponIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = couponIcon.png; sourceTree = "<group>"; };
+		3E750E92204D66AC00758258 /* couponSet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = couponSet.png; sourceTree = "<group>"; };
+		3E750E96204D689900758258 /* couponBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = couponBackground.png; sourceTree = "<group>"; };
+		3E750E98204E680A00758258 /* MakeQRCodeToUseCouponViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeQRCodeToUseCouponViewController.swift; sourceTree = "<group>"; };
+		3E764B672042A1C400881D50 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		3E764B682042A1C500881D50 /* left-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow.png"; sourceTree = "<group>"; };
+		3E764B6B2042C68000881D50 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		3E764B6F2042CFA900881D50 /* StoreMenuForTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreMenuForTableView.swift; sourceTree = "<group>"; };
+		3E76E7C820524CFB002B7262 /* mainCouponIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainCouponIcon.png; sourceTree = "<group>"; };
+		3E7FC3EA20473D1100FC4969 /* QRReaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRReaderViewController.swift; sourceTree = "<group>"; };
+		3E7FC3ED2047403D00FC4969 /* CustomerQRDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerQRDataViewController.swift; sourceTree = "<group>"; };
+		3E7FC3EF20478DE400FC4969 /* Coupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coupon.swift; sourceTree = "<group>"; };
+		3E82ED922063ED6C00BAD98E /* AjouAjou.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AjouAjou.entitlements; sourceTree = "<group>"; };
+		3EA5904B2050038400D32A21 /* CustomerOrderCompleteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomerOrderCompleteViewController.swift; sourceTree = "<group>"; };
+		3EA5904D2050040900D32A21 /* orderComplete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orderComplete.png; sourceTree = "<group>"; };
+		3EA5904F20500C4200D32A21 /* UsedCoupon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsedCoupon.swift; sourceTree = "<group>"; };
+		3EA5905120500F4E00D32A21 /* useCoupon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = useCoupon.png; sourceTree = "<group>"; };
+		3EA590532050103E00D32A21 /* OwnerQRDateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerQRDateViewController.swift; sourceTree = "<group>"; };
+		3EA5905C20506C3B00D32A21 /* settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings.png; sourceTree = "<group>"; };
+		3EA5905E20506C8100D32A21 /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logout.png; sourceTree = "<group>"; };
+		3EA5906020506DBA00D32A21 /* event.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = event.png; sourceTree = "<group>"; };
+		3EA5906220506E1700D32A21 /* notification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification.png; sourceTree = "<group>"; };
+		3EA5906420506E4100D32A21 /* information.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = information.png; sourceTree = "<group>"; };
+		3EA5906620506E7F00D32A21 /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		3EA59068205076AC00D32A21 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		3EABD6072039A4CB00948F44 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		3EABD60B2039A9DD00948F44 /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
+		3EABD60E2039C0F000948F44 /* InformOwner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformOwner.swift; sourceTree = "<group>"; };
+		3EB81DD0203B02EC00006F69 /* FontResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FontResource.swift; path = AjouAjou/Customer/FontResource.swift; sourceTree = SOURCE_ROOT; };
+		3EC3853E204FC49000349E20 /* couponStorageSuccess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = couponStorageSuccess.png; sourceTree = "<group>"; };
+		3ED318CD20497001009E83FC /* ReceiptTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptTableViewCell.swift; sourceTree = "<group>"; };
+		3EDB29D92046C3F20003E2D0 /* ReceiptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptViewController.swift; sourceTree = "<group>"; };
+		3EDD5895203C3D9D0042C4C3 /* UpdateInformOwnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateInformOwnerViewController.swift; sourceTree = "<group>"; };
+		3EDD5899203C41570042C4C3 /* UpdateInformCustomerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateInformCustomerViewController.swift; sourceTree = "<group>"; };
+		3EDD589D203C44210042C4C3 /* CheckBoxHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckBoxHeader.h; sourceTree = "<group>"; };
 		3EE6D83C20349D98003987F5 /* AjouAjou.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AjouAjou.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE6D83F20349D98003987F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3EE6D84120349D98003987F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +200,20 @@
 		3EE6D84620349D98003987F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EE6D84920349D98003987F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EE6D84B20349D98003987F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3EE6D8572034AC60003987F5 /* OwnerLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerLoginViewController.swift; sourceTree = "<group>"; };
+		3EE6D85A2034AD14003987F5 /* OwnerManualPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerManualPageViewController.swift; sourceTree = "<group>"; };
+		3EE6D85D2034AEAF003987F5 /* OwnerManual1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerManual1ViewController.swift; sourceTree = "<group>"; };
+		3EE6D85F2034AEB8003987F5 /* OwnerManual2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerManual2ViewController.swift; sourceTree = "<group>"; };
+		3EE6D8612034AEC1003987F5 /* OwnerManual3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerManual3ViewController.swift; sourceTree = "<group>"; };
+		3EE8F64F2039E074008D1458 /* InformCustomer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformCustomer.swift; sourceTree = "<group>"; };
+		3EE8F6542039F6DB008D1458 /* OwnerSignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OwnerSignUpViewController.swift; sourceTree = "<group>"; };
+		3EEE5D402072912200A4D618 /* couponIconFullGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = couponIconFullGray.png; path = "../../../../../../Desktop/아푸/assets/couponIconFullGray.png"; sourceTree = "<group>"; };
+		3EEE5D412072912200A4D618 /* couponIconEmptyGray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = couponIconEmptyGray.png; path = "../../../../../../Desktop/아푸/assets/couponIconEmptyGray.png"; sourceTree = "<group>"; };
+		3EEE5D422072912200A4D618 /* couponIconFullColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = couponIconFullColor.png; path = "../../../../../../Desktop/아푸/assets/couponIconFullColor.png"; sourceTree = "<group>"; };
+		3EEE5D432072912300A4D618 /* couponIconEmptyColor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = couponIconEmptyColor.png; path = "../../../../../../Desktop/아푸/assets/couponIconEmptyColor.png"; sourceTree = "<group>"; };
+		7DD39499F5920A75D07334C9 /* Pods_AjouAjou.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AjouAjou.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C71F6F52834C5518836C5620 /* Pods-AjouAjou.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjouAjou.release.xcconfig"; path = "Pods/Target Support Files/Pods-AjouAjou/Pods-AjouAjou.release.xcconfig"; sourceTree = "<group>"; };
+		CC3F1ABEB4410DD68A04A973 /* Pods-AjouAjou.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AjouAjou.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AjouAjou/Pods-AjouAjou.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +221,273 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BB3CA1A0DE6F80E2A8CB570 /* Pods_AjouAjou.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E05B62E203C4C0C0085C034 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3E05B633203C4C170085C034 /* BEMAnimationManager.h */,
+				3E05B632203C4C170085C034 /* BEMAnimationManager.m */,
+				3E05B630203C4C170085C034 /* BEMCheckBox.h */,
+				3E05B631203C4C170085C034 /* BEMCheckBox.m */,
+				3E05B634203C4C180085C034 /* BEMCheckBoxGroup.h */,
+				3E05B62F203C4C160085C034 /* BEMCheckBoxGroup.m */,
+				3E05B635203C4C180085C034 /* BEMPathManager.h */,
+				3E05B636203C4C180085C034 /* BEMPathManager.m */,
+			);
+			name = Classes;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		3E06F39B203808FA0094CC7F /* Customer */ = {
+			isa = PBXGroup;
+			children = (
+				3E750E88204CF6DB00758258 /* SideMenu */,
+				3E7FC3EC2047401100FC4969 /* QRCode */,
+				3EDD5897203C41340042C4C3 /* Information */,
+				3E06F3AB203810080094CC7F /* Main */,
+				3E06F39E203809D80094CC7F /* Manual */,
+			);
+			path = Customer;
+			sourceTree = "<group>";
+		};
+		3E06F39E203809D80094CC7F /* Manual */ = {
+			isa = PBXGroup;
+			children = (
+				3E06F39C2038093B0094CC7F /* CustomerManualPageViewController.swift */,
+				3E06F39F20380AAE0094CC7F /* CustomerManual1ViewController.swift */,
+				3E06F3A120380AC00094CC7F /* CustomerManual2ViewController.swift */,
+				3E06F3A320380ACE0094CC7F /* CustomerManual3ViewController.swift */,
+			);
+			path = Manual;
+			sourceTree = "<group>";
+		};
+		3E06F3A520380DD20094CC7F /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				3E5F77532040387D00186D45 /* Images */,
+				3E5F77512040360F00186D45 /* Colors.swift */,
+				3EB81DD0203B02EC00006F69 /* FontResource.swift */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
+		3E06F3AB203810080094CC7F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3E06F3AC203810270094CC7F /* CustomerMainViewController.swift */,
+				3E750E86204BDEF400758258 /* CustomerMainTableViewCell.swift */,
+				3EA5904B2050038400D32A21 /* CustomerOrderCompleteViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3E248E2E20387AB500CB5EC8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3EE6D8572034AC60003987F5 /* OwnerLoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		3E3FAE352053089E00F42226 /* Manual */ = {
+			isa = PBXGroup;
+			children = (
+				3E3FAE3E20530F4B00F42226 /* manualCustomer1.png */,
+				3E3FAE40205313B900F42226 /* manualCustomer2.png */,
+				3E3FAE422053169B00F42226 /* manualOwner1.png */,
+				3E3FAE442053189800F42226 /* manualOwner2.png */,
+			);
+			path = Manual;
+			sourceTree = "<group>";
+		};
+		3E4B95452062A0C000868E90 /* SideMenuContents */ = {
+			isa = PBXGroup;
+			children = (
+				3E2E1EE72053A6AC00BED0CD /* DeveloperViewController.swift */,
+				3E3FAE332052FC0100F42226 /* DevelopmentViewController.swift */,
+				3E4B95462062A11400868E90 /* NotificationViewController.swift */,
+			);
+			path = SideMenuContents;
+			sourceTree = "<group>";
+		};
+		3E5F77532040387D00186D45 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3E3FAE352053089E00F42226 /* Manual */,
+				3EC3853D204FBC4D00349E20 /* Lllustration */,
+				3E750E8F204D668D00758258 /* Coupon */,
+				3E5F776220404AF100186D45 /* Logo */,
+				3E5F776120404ACF00186D45 /* ButtonImages */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		3E5F776120404ACF00186D45 /* ButtonImages */ = {
+			isa = PBXGroup;
+			children = (
+				3EA5906620506E7F00D32A21 /* map.png */,
+				3E76E7C820524CFB002B7262 /* mainCouponIcon.png */,
+				3EA5906420506E4100D32A21 /* information.png */,
+				3EA59068205076AC00D32A21 /* back.png */,
+				3EA5906220506E1700D32A21 /* notification.png */,
+				3EA5906020506DBA00D32A21 /* event.png */,
+				3EA5905E20506C8100D32A21 /* logout.png */,
+				3EA5905C20506C3B00D32A21 /* settings.png */,
+				3E5F7767204053C700186D45 /* sideMenu.png */,
+				3E5F775B204045C700186D45 /* coupon.png */,
+				3E72FC2B204392CE00D8C01C /* down-arrow.png */,
+				3E72FC2C204392CE00D8C01C /* up-arrow.png */,
+				3E764B6B2042C68000881D50 /* plus.png */,
+				3E5F775C204045C700186D45 /* qr-code.png */,
+				3E72FC322043993A00D8C01C /* refresh-arrow.png */,
+				3E764B672042A1C400881D50 /* checked.png */,
+				3E764B682042A1C500881D50 /* left-arrow.png */,
+				3E5F777120415CE400186D45 /* mail.png */,
+				3E5F776D2041588300186D45 /* googleLogin.png */,
+				3E5F775F20404ACC00186D45 /* online.png */,
+			);
+			path = ButtonImages;
+			sourceTree = "<group>";
+		};
+		3E5F776220404AF100186D45 /* Logo */ = {
+			isa = PBXGroup;
+			children = (
+				3E5F7755204038A700186D45 /* afoo_logo_white.png */,
+			);
+			path = Logo;
+			sourceTree = "<group>";
+		};
+		3E6B1B012035B10400F52368 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3E6B1AFB2035758900F52368 /* OwnerMainViewController.swift */,
+				3E2412DF204A8953001AB4D4 /* OwnerMainDetailViewController.swift */,
+				3E2412DD204A789B001AB4D4 /* OwnerMainTableViewCell.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3E72FC2F2043933200D8C01C /* OrderSheet */ = {
+			isa = PBXGroup;
+			children = (
+				3E72FC302043938700D8C01C /* CreateOrderSheetViewController.swift */,
+				3E72FC342043A9E700D8C01C /* CreateOrderSheetTableViewCell.swift */,
+				3EDB29D92046C3F20003E2D0 /* ReceiptViewController.swift */,
+				3ED318CD20497001009E83FC /* ReceiptTableViewCell.swift */,
+			);
+			path = OrderSheet;
+			sourceTree = "<group>";
+		};
+		3E750E88204CF6DB00758258 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3E750E89204CF70B00758258 /* ManageCouponViewController.swift */,
+				3E750E8D204CF79400758258 /* ManageCouponDetailViewController.swift */,
+				3E750E8B204CF76A00758258 /* ManageCouponTableViewCell.swift */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		3E750E8F204D668D00758258 /* Coupon */ = {
+			isa = PBXGroup;
+			children = (
+				3E750E92204D66AC00758258 /* couponSet.png */,
+				3E750E96204D689900758258 /* couponBackground.png */,
+				3E6B122C20508FCA00CEC6A8 /* star.png */,
+				3EEE5D432072912300A4D618 /* couponIconEmptyColor.png */,
+				3EEE5D412072912200A4D618 /* couponIconEmptyGray.png */,
+				3EEE5D422072912200A4D618 /* couponIconFullColor.png */,
+				3EEE5D402072912200A4D618 /* couponIconFullGray.png */,
+				3E6B122B20508FC700CEC6A8 /* userStar.png */,
+				3E750E91204D66AC00758258 /* couponIcon.png */,
+			);
+			path = Coupon;
+			sourceTree = "<group>";
+		};
+		3E7FC3E920473CF700FC4969 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				3EA590532050103E00D32A21 /* OwnerQRDateViewController.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		3E7FC3EC2047401100FC4969 /* QRCode */ = {
+			isa = PBXGroup;
+			children = (
+				3E7FC3EA20473D1100FC4969 /* QRReaderViewController.swift */,
+				3E750E98204E680A00758258 /* MakeQRCodeToUseCouponViewController.swift */,
+				3E7FC3ED2047403D00FC4969 /* CustomerQRDataViewController.swift */,
+			);
+			path = QRCode;
+			sourceTree = "<group>";
+		};
+		3EA59055205050C400D32A21 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		3EABD60D2039C0D900948F44 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3EABD60E2039C0F000948F44 /* InformOwner.swift */,
+				3E4B954A2062A5B000868E90 /* Notice.swift */,
+				3EE8F64F2039E074008D1458 /* InformCustomer.swift */,
+				3EA5904F20500C4200D32A21 /* UsedCoupon.swift */,
+				3E750E82204BCD2400758258 /* WaitingOrder.swift */,
+				3E764B6F2042CFA900881D50 /* StoreMenuForTableView.swift */,
+				3E05B63D203C92C60085C034 /* DistributedCoupon.swift */,
+				3E7FC3EF20478DE400FC4969 /* Coupon.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		3EC3853D204FBC4D00349E20 /* Lllustration */ = {
+			isa = PBXGroup;
+			children = (
+				3E2E1EE92053A75F00BED0CD /* developer.png */,
+				3E4B95482062A34700868E90 /* conference.png */,
+				3E3FAE312052FA7900F42226 /* undraw_development_ouy3.png */,
+				3EA5905120500F4E00D32A21 /* useCoupon.png */,
+				3EA5904D2050040900D32A21 /* orderComplete.png */,
+				3EC3853E204FC49000349E20 /* couponStorageSuccess.png */,
+				3E522FF12052459D00488843 /* today.png */,
+			);
+			path = Lllustration;
+			sourceTree = "<group>";
+		};
+		3EDD5892203C3CD30042C4C3 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				3EDD5895203C3D9D0042C4C3 /* UpdateInformOwnerViewController.swift */,
+				3E48B93C203D1CD70008A431 /* UpdateInformOwnerTableViewCell.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
+		3EDD5897203C41340042C4C3 /* Information */ = {
+			isa = PBXGroup;
+			children = (
+				3EDD5899203C41570042C4C3 /* UpdateInformCustomerViewController.swift */,
+			);
+			path = Information;
+			sourceTree = "<group>";
+		};
 		3EE6D83320349D98003987F5 = {
 			isa = PBXGroup;
 			children = (
 				3EE6D83E20349D98003987F5 /* AjouAjou */,
 				3EE6D83D20349D98003987F5 /* Products */,
+				A3BA35F02C005C5619EE61D1 /* Pods */,
+				D9F9C22C65342720CCF583DD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +502,76 @@
 		3EE6D83E20349D98003987F5 /* AjouAjou */ = {
 			isa = PBXGroup;
 			children = (
-				3EE6D83F20349D98003987F5 /* AppDelegate.swift */,
-				3EE6D84120349D98003987F5 /* ViewController.swift */,
+				3E82ED922063ED6C00BAD98E /* AjouAjou.entitlements */,
 				3EE6D84320349D98003987F5 /* Main.storyboard */,
+				3EDD589D203C44210042C4C3 /* CheckBoxHeader.h */,
+				3E05B62E203C4C0C0085C034 /* Classes */,
+				3E06F3A520380DD20094CC7F /* Asset */,
+				3EE6D83F20349D98003987F5 /* AppDelegate.swift */,
+				3EABD6072039A4CB00948F44 /* SplashViewController.swift */,
+				3EE6D84120349D98003987F5 /* ViewController.swift */,
+				3E4B95452062A0C000868E90 /* SideMenuContents */,
+				3EABD60D2039C0D900948F44 /* Data */,
+				3E06F39B203808FA0094CC7F /* Customer */,
+				3EE6D8592034AC6A003987F5 /* Owner */,
 				3EE6D84620349D98003987F5 /* Assets.xcassets */,
 				3EE6D84820349D98003987F5 /* LaunchScreen.storyboard */,
 				3EE6D84B20349D98003987F5 /* Info.plist */,
+				3E06F3AE203815280094CC7F /* GoogleService-Info.plist */,
+				3EABD60B2039A9DD00948F44 /* RemoteConfigDefaults.plist */,
 			);
 			path = AjouAjou;
+			sourceTree = "<group>";
+		};
+		3EE6D8592034AC6A003987F5 /* Owner */ = {
+			isa = PBXGroup;
+			children = (
+				3EA59055205050C400D32A21 /* SideMenu */,
+				3E7FC3E920473CF700FC4969 /* QRCode */,
+				3E72FC2F2043933200D8C01C /* OrderSheet */,
+				3EDD5892203C3CD30042C4C3 /* Information */,
+				3E6B1B012035B10400F52368 /* Main */,
+				3E248E2E20387AB500CB5EC8 /* Login */,
+				3EE6D85C2034AE7C003987F5 /* Manual */,
+				3EE8F6512039F285008D1458 /* SignUp */,
+			);
+			path = Owner;
+			sourceTree = "<group>";
+		};
+		3EE6D85C2034AE7C003987F5 /* Manual */ = {
+			isa = PBXGroup;
+			children = (
+				3EE6D85A2034AD14003987F5 /* OwnerManualPageViewController.swift */,
+				3EE6D85D2034AEAF003987F5 /* OwnerManual1ViewController.swift */,
+				3EE6D85F2034AEB8003987F5 /* OwnerManual2ViewController.swift */,
+				3EE6D8612034AEC1003987F5 /* OwnerManual3ViewController.swift */,
+			);
+			path = Manual;
+			sourceTree = "<group>";
+		};
+		3EE8F6512039F285008D1458 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				3EE8F6542039F6DB008D1458 /* OwnerSignUpViewController.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		A3BA35F02C005C5619EE61D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC3F1ABEB4410DD68A04A973 /* Pods-AjouAjou.debug.xcconfig */,
+				C71F6F52834C5518836C5620 /* Pods-AjouAjou.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9F9C22C65342720CCF583DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DD39499F5920A75D07334C9 /* Pods_AjouAjou.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +581,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3EE6D84E20349D98003987F5 /* Build configuration list for PBXNativeTarget "AjouAjou" */;
 			buildPhases = (
+				47D2E42EBF467EAE0074ADDA /* [CP] Check Pods Manifest.lock */,
 				3EE6D83820349D98003987F5 /* Sources */,
 				3EE6D83920349D98003987F5 /* Frameworks */,
 				3EE6D83A20349D98003987F5 /* Resources */,
+				F59B59F9F20B4720E288B752 /* [CP] Embed Pods Frameworks */,
+				018B9C22D6ACD513EF84EFF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +609,18 @@
 				TargetAttributes = {
 					3EE6D83B20349D98003987F5 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,21 +647,183 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3FAE41205313BB00F42226 /* manualCustomer2.png in Resources */,
+				3E3FAE3F20530F4D00F42226 /* manualCustomer1.png in Resources */,
+				3EA5906520506E4400D32A21 /* information.png in Resources */,
+				3E5F7768204053C700186D45 /* sideMenu.png in Resources */,
+				3E764B6C2042C68100881D50 /* plus.png in Resources */,
+				3EA5906320506E1A00D32A21 /* notification.png in Resources */,
 				3EE6D84A20349D98003987F5 /* LaunchScreen.storyboard in Resources */,
+				3E750E95204D66AD00758258 /* couponSet.png in Resources */,
+				3E06F3AF203815280094CC7F /* GoogleService-Info.plist in Resources */,
+				3EEE5D452072912300A4D618 /* couponIconEmptyGray.png in Resources */,
+				3E764B6A2042A1C500881D50 /* left-arrow.png in Resources */,
+				3EA5906120506DBC00D32A21 /* event.png in Resources */,
+				3E5F776E2041588400186D45 /* googleLogin.png in Resources */,
+				3EA5906720506E8100D32A21 /* map.png in Resources */,
+				3E764B692042A1C500881D50 /* checked.png in Resources */,
+				3E3FAE452053189B00F42226 /* manualOwner2.png in Resources */,
+				3E76E7C920524CFD002B7262 /* mainCouponIcon.png in Resources */,
+				3E750E94204D66AD00758258 /* couponIcon.png in Resources */,
+				3E72FC332043993A00D8C01C /* refresh-arrow.png in Resources */,
+				3E72FC2D204392CF00D8C01C /* down-arrow.png in Resources */,
+				3EA5905220500F5000D32A21 /* useCoupon.png in Resources */,
+				3E72FC2E204392CF00D8C01C /* up-arrow.png in Resources */,
+				3E5F7756204038A700186D45 /* afoo_logo_white.png in Resources */,
+				3EC3853F204FC49100349E20 /* couponStorageSuccess.png in Resources */,
+				3E3FAE432053169E00F42226 /* manualOwner1.png in Resources */,
+				3EA5905D20506C3B00D32A21 /* settings.png in Resources */,
+				3E6B122E20508FCC00CEC6A8 /* star.png in Resources */,
+				3EA5904E2050040A00D32A21 /* orderComplete.png in Resources */,
+				3EA5905F20506C8100D32A21 /* logout.png in Resources */,
+				3E5F775D204045C800186D45 /* coupon.png in Resources */,
 				3EE6D84720349D98003987F5 /* Assets.xcassets in Resources */,
+				3EEE5D472072912300A4D618 /* couponIconEmptyColor.png in Resources */,
+				3E6B122D20508FCC00CEC6A8 /* userStar.png in Resources */,
+				3E750E97204D689900758258 /* couponBackground.png in Resources */,
+				3E5F776020404ACD00186D45 /* online.png in Resources */,
+				3EEE5D462072912300A4D618 /* couponIconFullColor.png in Resources */,
+				3E5F775E204045C800186D45 /* qr-code.png in Resources */,
+				3EA59069205076AC00D32A21 /* back.png in Resources */,
+				3E5F777220415CE500186D45 /* mail.png in Resources */,
+				3E3FAE322052FA7B00F42226 /* undraw_development_ouy3.png in Resources */,
+				3E2E1EEA2053A76100BED0CD /* developer.png in Resources */,
 				3EE6D84520349D98003987F5 /* Main.storyboard in Resources */,
+				3E4B95492062A34A00868E90 /* conference.png in Resources */,
+				3EABD60C2039A9DD00948F44 /* RemoteConfigDefaults.plist in Resources */,
+				3E522FF2205245A000488843 /* today.png in Resources */,
+				3EEE5D442072912300A4D618 /* couponIconFullGray.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		018B9C22D6ACD513EF84EFF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AjouAjou/Pods-AjouAjou-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AjouAjou/Pods-AjouAjou-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		47D2E42EBF467EAE0074ADDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AjouAjou-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F59B59F9F20B4720E288B752 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AjouAjou/Pods-AjouAjou-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AjouAjou/Pods-AjouAjou-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3EE6D83820349D98003987F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED318CE20497001009E83FC /* ReceiptTableViewCell.swift in Sources */,
+				3EB81DD1203B02EC00006F69 /* FontResource.swift in Sources */,
+				3E750E83204BCD2400758258 /* WaitingOrder.swift in Sources */,
+				3EA5905020500C4200D32A21 /* UsedCoupon.swift in Sources */,
+				3EDB29DA2046C3F20003E2D0 /* ReceiptViewController.swift in Sources */,
+				3E06F3AD203810270094CC7F /* CustomerMainViewController.swift in Sources */,
+				3E05B638203C4C190085C034 /* BEMCheckBox.m in Sources */,
+				3E72FC312043938700D8C01C /* CreateOrderSheetViewController.swift in Sources */,
+				3EE6D85B2034AD14003987F5 /* OwnerManualPageViewController.swift in Sources */,
+				3E764B702042CFA900881D50 /* StoreMenuForTableView.swift in Sources */,
+				3EABD60F2039C0F000948F44 /* InformOwner.swift in Sources */,
+				3EE6D8602034AEB8003987F5 /* OwnerManual2ViewController.swift in Sources */,
+				3EE8F6502039E074008D1458 /* InformCustomer.swift in Sources */,
+				3E06F3A020380AAE0094CC7F /* CustomerManual1ViewController.swift in Sources */,
+				3E06F3A420380ACE0094CC7F /* CustomerManual3ViewController.swift in Sources */,
+				3EE6D8582034AC60003987F5 /* OwnerLoginViewController.swift in Sources */,
+				3E05B63A203C4C190085C034 /* BEMPathManager.m in Sources */,
+				3E750E8C204CF76A00758258 /* ManageCouponTableViewCell.swift in Sources */,
+				3E06F39D2038093B0094CC7F /* CustomerManualPageViewController.swift in Sources */,
+				3EA5904C2050038400D32A21 /* CustomerOrderCompleteViewController.swift in Sources */,
+				3E6B1AFC2035758900F52368 /* OwnerMainViewController.swift in Sources */,
+				3E05B63E203C92C60085C034 /* DistributedCoupon.swift in Sources */,
+				3EE6D85E2034AEAF003987F5 /* OwnerManual1ViewController.swift in Sources */,
+				3EDD589A203C41570042C4C3 /* UpdateInformCustomerViewController.swift in Sources */,
+				3E4B95472062A11400868E90 /* NotificationViewController.swift in Sources */,
+				3E05B637203C4C190085C034 /* BEMCheckBoxGroup.m in Sources */,
+				3E7FC3F020478DE400FC4969 /* Coupon.swift in Sources */,
+				3E5F77522040360F00186D45 /* Colors.swift in Sources */,
+				3EABD6082039A4CB00948F44 /* SplashViewController.swift in Sources */,
+				3E72FC352043A9E700D8C01C /* CreateOrderSheetTableViewCell.swift in Sources */,
+				3E2E1EE82053A6AD00BED0CD /* DeveloperViewController.swift in Sources */,
+				3E7FC3EB20473D1100FC4969 /* QRReaderViewController.swift in Sources */,
+				3E750E8E204CF79400758258 /* ManageCouponDetailViewController.swift in Sources */,
+				3E2412DE204A789B001AB4D4 /* OwnerMainTableViewCell.swift in Sources */,
+				3E06F3A220380AC00094CC7F /* CustomerManual2ViewController.swift in Sources */,
+				3E4B954B2062A5B000868E90 /* Notice.swift in Sources */,
+				3E7FC3EE2047403D00FC4969 /* CustomerQRDataViewController.swift in Sources */,
+				3E750E8A204CF70B00758258 /* ManageCouponViewController.swift in Sources */,
+				3E48B93D203D1CD70008A431 /* UpdateInformOwnerTableViewCell.swift in Sources */,
+				3E750E87204BDEF400758258 /* CustomerMainTableViewCell.swift in Sources */,
+				3E2412E0204A8953001AB4D4 /* OwnerMainDetailViewController.swift in Sources */,
+				3EE6D8622034AEC1003987F5 /* OwnerManual3ViewController.swift in Sources */,
+				3EE8F6552039F6DB008D1458 /* OwnerSignUpViewController.swift in Sources */,
+				3EDD5896203C3D9D0042C4C3 /* UpdateInformOwnerViewController.swift in Sources */,
 				3EE6D84220349D98003987F5 /* ViewController.swift in Sources */,
+				3E750E99204E680A00758258 /* MakeQRCodeToUseCouponViewController.swift in Sources */,
+				3E3FAE342052FC0100F42226 /* DevelopmentViewController.swift in Sources */,
 				3EE6D84020349D98003987F5 /* AppDelegate.swift in Sources */,
+				3E05B639203C4C190085C034 /* BEMAnimationManager.m in Sources */,
+				3EA590542050103E00D32A21 /* OwnerQRDateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,29 +958,47 @@
 		};
 		3EE6D84F20349D98003987F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3F1ABEB4410DD68A04A973 /* Pods-AjouAjou.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = AjouAjou/AjouAjou.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kiwon Jang (YWHCT8RQC4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kiwon Jang (YWHCT8RQC4)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = YWHCT8RQC4;
 				INFOPLIST_FILE = AjouAjou/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = main.AjouAjou;
+				PRODUCT_BUNDLE_IDENTIFIER = com.machine.firecoupon.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ce550d02-a84f-4fd8-8f5d-1232d010b22a";
+				PROVISIONING_PROFILE_SPECIFIER = afoo;
+				SWIFT_OBJC_BRIDGING_HEADER = AjouAjou/CheckBoxHeader.h;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		3EE6D85020349D98003987F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C71F6F52834C5518836C5620 /* Pods-AjouAjou.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = AjouAjou/AjouAjou.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Kiwon Jang (YWHCT8RQC4)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Kiwon Jang (YWHCT8RQC4)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = YWHCT8RQC4;
 				INFOPLIST_FILE = AjouAjou/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = main.AjouAjou;
+				PRODUCT_BUNDLE_IDENTIFIER = com.machine.firecoupon.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ce550d02-a84f-4fd8-8f5d-1232d010b22a";
+				PROVISIONING_PROFILE_SPECIFIER = afoo;
+				SWIFT_OBJC_BRIDGING_HEADER = AjouAjou/CheckBoxHeader.h;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
